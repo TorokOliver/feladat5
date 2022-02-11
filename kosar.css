@@ -1,6 +1,48 @@
-#tovabb{
-	position:relative;
+span{
+	font-weight: bold;
+}
+
+#tartalom{
+	width: 600px;
+	margin-top: 0px;
+	margin: auto;
+
+}
+
+p{
+	text-align: justify;
+}
+
+#tablazat{
+	width: 500px;
+	text-align: center;
+}
+
+td{
+	width: 75px;
+}
+
+#tovabb 
+{
+	position: relative;
 	top:-39px;
 	left:580px;
 	width:120px;
+	margin: -35px;
+	padding: 15px;
+	color: white;
+	background-color: rgba(255, 165, 0, 1);
+}
+
+#tovabb:hover{
+
+	background-color: black;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	border-bottom: lightgrey solid 1px;
 }
